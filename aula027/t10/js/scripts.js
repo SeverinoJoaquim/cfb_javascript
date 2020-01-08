@@ -1,5 +1,3 @@
-document.write(document.getElementById("curso1").elements[0].value);
-
 var fm=document.forms[0];
 var el=fm.elements;
 

@@ -3,7 +3,6 @@ label{
 }
 input{
 	display: block;
-	margin-bottom: 10px;
 }
 input[type=submit],label{
 	margin-top: 10px;
