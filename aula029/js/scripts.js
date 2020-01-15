@@ -1,33 +1,49 @@
-//Página 55 da Apostila
+var numeros=new Array(1,2,3,100);
 
-var mt=Math.PI;
-document.write(mt+"<br><br>");
+function media(nums){
+	var tam=nums.length;
+	var soma=0;
+	for(var i=0;i<tam;i++){
+		soma+=nums[i];
+	}
+	//return soma/tam;
+	return Math.round(soma/tam);
+}
+document.write(media(numeros));
 
-var mt2=Math.SQRT2;
-document.write(mt2+"<br><br>");
+document.write("<hr>");
 
-var mt3=Math.SQRT1_2;
-document.write(mt3+"<br><br>");
+function soma3(c1,c2){
+	return c1+c2;
+}
+var res3=soma3(21,21)
+document.write(res3);
 
-var mt4=Math.E;
-document.write(mt4+"<br><br>");
+document.write("<hr>");
 
-var valor1=-10;
-var mt5=Math.abs(valor1);
-document.write(mt5+"<br><br>");
+function soma2(v1,v2){
+	return v1+v2;
+}
+document.write(soma2(15,13));
 
-var valor2=10.1;
-var mt6=Math.ceil(valor2);
-document.write(mt6+"<br><br>");
+document.write("<hr>");
 
-var valor3=10.1;
-var mt7=Math.floor(valor3);
-document.write(mt7+"<br><br>");
+function soma(n1,n2){
+	var res=n1+n2;
+	document.write(res+"<br>");
+}
 
-var valor4=10.6;
-var mt8=Math.round(valor4);
-document.write(mt8+"<br><br>");
+soma(5,2);
+soma(10,20);
+soma(0,5);
 
-var valor5=4;
-var mt9=Math.pow(valor5,3);
-document.write(mt9+"<br><br>");
+document.write("<hr>");
+
+function escreve(){
+	document.write("Ghgdkhgdkhgkhgkhg ytditditdtdtd iytditdi");
+}
+
+escreve();
+
+document.write("<hr>");
+
